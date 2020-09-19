@@ -13,6 +13,7 @@ html {
   background-color: #000;
   color: #fff;
   font-family: "DM Mono", monospace;
+  line-height: 1.2;
 }
 
 h1,
@@ -86,4 +87,12 @@ header {
 #media {
   background-color: turquoise;
   z-index: 1;
+}
+
+/* responsiveness ============ */
+
+@media (max-width: 650px) {
+  header {
+    flex-direction: column;
+  }
 }
