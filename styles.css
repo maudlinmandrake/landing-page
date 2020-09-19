@@ -22,12 +22,15 @@ li {
 }
 
 a {
-  color: paleturquoise;
+  color: #fff;
+  text-shadow: 1px 1px 5px #fff;
+  text-decoration: none;
 }
 
 /* header =============================================================================================== */
 
 header {
+  background-color: darkviolet;
   position: sticky;
   top: 0;
   display: flex;
@@ -43,3 +46,6 @@ header {
 
 /* hero ================================================================================================= */
 
+#hero {
+  background-color: #000;
+}
