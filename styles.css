@@ -49,12 +49,11 @@ header {
 
 #hero {
   background-color: #000;
+  padding-bottom: 0;
 }
 
 #game-screen {
-  display: inline;
-  transform: rotate(10deg);
-  z-index: -999;
+
 }
 
 
@@ -62,7 +61,6 @@ header {
 /* media ================================================================================================ */
 
 #media {
-  display: block;
   background-color: turquoise;
-  height: 600px;
+  z-index: 1;
 }
