@@ -28,11 +28,13 @@ a {
 /* header */
 
 header {
-  position: fixed;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  height: 100px;
 }
 
 #header-img {
