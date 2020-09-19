@@ -38,6 +38,7 @@ header {
   justify-content: space-between;
   padding: 20px;
   height: 100px;
+  z-index: 999;
 }
 
 #header-img {
@@ -48,4 +49,20 @@ header {
 
 #hero {
   background-color: #000;
+}
+
+#game-screen {
+  display: inline;
+  transform: rotate(10deg);
+  z-index: -999;
+}
+
+
+
+/* media ================================================================================================ */
+
+#media {
+  display: block;
+  background-color: turquoise;
+  height: 600px;
 }
