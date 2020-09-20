@@ -91,6 +91,19 @@ header {
 
 /* responsiveness ============ */
 
+@media (max-width: 925px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+
+  .intro {
+    margin: 100px auto;
+    text-align: center;
+  }
+
+
+}
+
 @media (max-width: 650px) {
   header {
     flex-direction: column;
