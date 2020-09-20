@@ -55,12 +55,11 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  height: 100px;
   z-index: 999;
 }
 
 #header-img {
-  width: 300px;
+  width: 60%;
 }
 
 .fa-cat {
@@ -112,5 +111,9 @@ header {
 @media (max-width: 650px) {
   header {
     flex-direction: column;
+  }
+
+  nav {
+    margin: 20px auto;
   }
 }
