@@ -59,7 +59,7 @@ header {
 }
 
 #header-img {
-  width: 60%;
+  width: 400px;
 }
 
 .fa-cat {
@@ -79,6 +79,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding-top: 100px;
   padding-bottom: 0;
 }
 
