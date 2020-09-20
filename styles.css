@@ -65,10 +65,6 @@ header {
 
 .intro h1 {
   color: turquoise;
-  font-size: 5rem;
-}
-
-.intro h2 {
   font-size: 3rem;
 }
 
@@ -80,6 +76,10 @@ header {
   align-items: center;
   justify-content: space-evenly;
   padding-bottom: 0;
+}
+
+.intro {
+  padding: 70px;
 }
 
 /* media ================================================================================================ */
