@@ -191,4 +191,8 @@ input[type="email"] {
   #download {
     padding: 100px 50px;
   }
+
+  #updates {
+    text-align: center;
+  }
 }
