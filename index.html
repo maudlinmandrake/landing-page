@@ -15,8 +15,8 @@
         <nav id="nav-bar">
           <ul>
             <li><a class="nav-link" href="#media">Gameplay</a></li>
-            <li><a class="nav-link" href="">Download</a></li>
-            <li><a class="nav-link" href="">Download</a></li>
+            <li><a class="nav-link" href="#download">Download</a></li>
+            <li><a class="nav-link" href="#updates">Get Updates</a></li>
           </ul>
         </nav>
       </header>
@@ -31,12 +31,21 @@
       </section>
       <section id="media">
         <h2>Funner than a barrel of kittens!</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7I9qG0nU98g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7I9qG0nU98g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
       <section id="download">
         <h2>Download</h2>
-        <a href="" class="button">App Store</a>
-        <a href="" class="button">Google Play</a>
+        <div class="button-group">
+          <a href="" class="button"><i class="fab fa-apple"></i> App Store</a>
+          <a href="" class="button"><i class="fab fa-google-play"></i> Google Play</a>
+        </div>
+      </section>
+      <section id="updates">
+        <h2>Sign up for our newsletter to get updates!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="email" name="email" id="email" placeholder="Your email address"/>
+          <input type="submit" id="submit" value="Submit"/>
+        </form>
       </section>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
